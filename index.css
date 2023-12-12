@@ -1,0 +1,232 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bgImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    border: 2px solid grey;
+    margin: 20px 10px; /* Adjusted margin for small screens */
+    padding: 10px; /* Adjusted padding for small screens */
+    width: 40%; /* Adjusted width for small screens */
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 100%; /* Make the input fields full width */
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    border-radius: 8px;
+}
+.form-group2
+{
+    text-align: center;
+}
+
+/* Media Queries for Tablet */
+@media (min-width: 600px) {
+    .mid {
+        width: 30%; /* Adjusted width for tablets */
+    }
+
+    .container {
+        width: 40%; /* Adjusted width for tablets */
+    }
+
+    .form-group input {
+        width: 80%; /* Make the input fields 80% width on tablets */
+    }
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 600px) {
+    .left,
+    .right {
+        display: none; /* Hide the left and right boxes on small screens */
+    }
+
+    .mid {
+        width: 100%; /* Make the navbar full width on small screens */
+    }
+
+    .container {
+        margin: 10px; /* Adjusted margin for small screens */
+        width: 40%; /* Adjusted width for small screens */
+        padding: 10px; /* Adjusted padding for small screens */
+    }
+
+    .form-group input {
+        width: 100%; /* Make the input fields full width on small screens */
+    }
+}
+/* ... existing styles ... */
+.left {
+display: inline-block;
+/* border: 2px solid red; */
+position: absolute;
+left: 60px;
+top: 20px;
+}
+
+.left img {
+width: 136px;
+filter: invert(100%);
+}
+
+.left div {
+line-height: 19px;
+font-size: 26px;
+text-align: center;
+}
+
+.mid {
+display: block;
+width: 36%;
+margin: 29px auto;
+/* border: 2px solid green; */
+}
+
+.right {
+position: absolute;
+right: 34px;
+top: 43px;
+display: inline-block;
+/* border: 2px solid yellow; */
+}
+
+.navbar {
+display: inherit;
+text-align: center;
+}
+
+.navbar li {
+display: inline-block;
+font-size: 25px;
+}
+
+.navbar li a {
+color:black;
+text-decoration: none;
+padding: 10px 10px;
+
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+text-decoration: underline;
+color: grey;
+
+}
+
+.btn {
+font-family: 'Baloo Bhai', cursive;
+margin: 0px 19px;
+background-color: black;
+color: white;
+padding: 4px 14px;
+border: 2px solid grey;
+border-radius: 10px;
+font-size: 20px;
+cursor: pointer;
+}
+
+.btn:hover {
+background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid grey;
+    margin: 106px 10px; /* Adjusted margin for smaller screens */
+    padding: 20px; /* Adjusted padding for smaller screens */
+    width: 90%; /* Adjusted width for smaller screens */
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 100%; /* Make the input fields full width */
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    border-radius: 8px;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center; /* Center-aligning the content */
+  }
+  
+  
+  
+  .footer-bottom {
+    margin-top: 20px;
+   
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+   
+  }
+
+
+/* Media Queries for Tablet */
+@media (min-width: 600px) {
+    .mid {
+        width: 70%; /* Adjusted width for tablets */
+    }
+
+    .container {
+        width: 40%; /* Adjusted width for tablets */
+    }
+
+    .form-group input {
+        width: 80%; /* Make the input fields 80% width on tablets */
+    }
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 600px) {
+    .left,
+    .right {
+        display: none; /* Hide the left and right boxes on small screens */
+    }
+
+    .mid {
+        width: 100%; /* Make the navbar full width on small screens */
+    }
+
+    .container {
+        margin: 20px 10px; /* Adjusted margin for small screens */
+        width: 70%; /* Adjusted width for small screens */
+    }
+
+    .form-group input {
+        width: 100%; /* Make the input fields full width on small screens */
+    }
+
+    .site-footer {
+background-color: #ccc; /* Grey background color */
+color: #000; /* Text color */
+text-align: center; /* Center-align text */
+padding: 20px 0; /* Add padding for spacing */
+}
+.footer-content h4 {
+margin-bottom: 10px; /* Add space below the h4 */
+}
+   
+}

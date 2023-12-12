@@ -1,0 +1,380 @@
+  /* CSS Reset */
+  body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('/gym.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    border: 2px solid white;
+    margin: 20px 10px; /* Adjusted margin for small screens */
+    padding: 10px; /* Adjusted padding for small screens */
+    width: 40%; /* Adjusted width for small screens */
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 100%; /* Make the input fields full width */
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    border-radius: 8px;
+}
+.form-group2
+{
+    text-align: center;
+}
+
+/* Media Queries for Tablet */
+@media (min-width: 600px) {
+    .mid {
+        width: 30%; /* Adjusted width for tablets */
+    }
+
+    .container {
+        width: 40%; /* Adjusted width for tablets */
+    }
+
+    .form-group input {
+        width: 80%; /* Make the input fields 80% width on tablets */
+    }
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 600px) {
+    .left,
+    .right {
+        display: none; /* Hide the left and right boxes on small screens */
+    }
+
+    .mid {
+        width: 100%; /* Make the navbar full width on small screens */
+    }
+
+    .container {
+        margin: 10px; /* Adjusted margin for small screens */
+        width: 40%; /* Adjusted width for small screens */
+        padding: 10px; /* Adjusted padding for small screens */
+    }
+
+    .form-group input {
+        width: 100%; /* Make the input fields full width on small screens */
+    }
+}
+/* ... existing styles ... */
+.left {
+display: inline-block;
+/* border: 2px solid red; */
+position: absolute;
+left: 60px;
+top: 20px;
+}
+
+.left img {
+width: 136px;
+filter: invert(100%);
+}
+
+.left div {
+line-height: 19px;
+font-size: 26px;
+text-align: center;
+}
+
+.mid {
+display: block;
+width: 36%;
+margin: 29px auto;
+/* border: 2px solid green; */
+}
+
+.right {
+position: absolute;
+right: 34px;
+top: 43px;
+display: inline-block;
+/* border: 2px solid yellow; */
+}
+
+.navbar {
+display: inherit;
+text-align: center;
+}
+
+.navbar li {
+display: inline-block;
+font-size: 25px;
+}
+
+.navbar li a {
+color: white;
+text-decoration: none;
+padding: 10px 10px;
+
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+text-decoration: underline;
+color: grey;
+
+}
+
+.btn {
+font-family: 'Baloo Bhai', cursive;
+margin: 0px 19px;
+background-color: black;
+color: white;
+padding: 4px 14px;
+border: 2px solid grey;
+border-radius: 10px;
+font-size: 20px;
+cursor: pointer;
+}
+
+.btn:hover {
+background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 10px; /* Adjusted margin for smaller screens */
+    padding: 20px; /* Adjusted padding for smaller screens */
+    width: 90%; /* Adjusted width for smaller screens */
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 100%; /* Make the input fields full width */
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    border-radius: 8px;
+}
+
+/* Media Queries for Tablet */
+@media (min-width: 600px) {
+    .mid {
+        width: 70%; /* Adjusted width for tablets */
+    }
+
+    .container {
+        width: 40%; /* Adjusted width for tablets */
+    }
+
+    .form-group input {
+        width: 80%; /* Make the input fields 80% width on tablets */
+    }
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 600px) {
+    .left,
+    .right {
+        display: none; /* Hide the left and right boxes on small screens */
+    }
+
+    .mid {
+        width: 100%; /* Make the navbar full width on small screens */
+    }
+
+    .container {
+        margin: 20px 10px; /* Adjusted margin for small screens */
+        width: 70%; /* Adjusted width for small screens */
+    }
+
+    .form-group input {
+        width: 100%; /* Make the input fields full width on small screens */
+    }
+}
+
+
+
+  
+  /*contact page */
+.contact{
+    position:relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(grey.jpg);
+    background-size: cover;
+
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p {
+   
+    font-weight: 300;
+    color: #fff;
+}
+.container1{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container1 .contactInfo{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+}
+.container1 .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container1 .contactInfo .box .icon
+{
+    min-height: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container1 .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container1 .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width:  100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize:none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+    color:#e91e63;
+    font-size : 12px;
+    transform : translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]
+{
+   width: 100px;
+   background: #00bcd4;
+   color:#fff;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 18px; 
+}
+@media (max-width: 991px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container1 .contactInfo{
+        margin-bottom: 40px;
+
+    }
+    .container1 .contactinfo
+    .contactform{
+        width: 100%;
+    }
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center; /* Center-aligning the content */
+  }
+  
+  
+  
+  .footer-bottom {
+    margin-top: 20px;
+   
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+   
+  }
+
+  
+  
+
+
+
+  
+  
+
+
+
+
