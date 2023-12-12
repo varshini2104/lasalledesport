@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     background: url('/gym.jpg');
+    /*"C:\Users\Varshini\lasalledesport\gym.jpg"*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -213,6 +214,7 @@ background-color: rgb(31, 30, 30);
     align-items: center;
     flex-direction: column;
     background-image: url(grey.jpg);
+    /*"C:\Users\Varshini\lasalledesport\grey.jpg"*/
     background-size: cover;
 
 }
